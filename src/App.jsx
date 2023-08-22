@@ -5,7 +5,7 @@ import { SideBar } from './components/ui/SideBar'
 import { NavBar } from './components/ui/NavBar'
 import { ProductCreatePage } from './pages/products/ProductCreatePage'
 import { ProductsPage } from './pages/products/ProductsPage'
-import { ProductListPage } from './pages/products/ProductListPage'
+
 
 
 
@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route exact path='product' element={ <ProductsPage />} />
           <Route exact path='product-add' element={ <ProductCreatePage />} />
-          <Route exact path='product-list' element={ <ProductListPage />} />
+          <Route exact path='/' element={ <ProductsPage />} />
         </Routes>
       </div>
     </>
